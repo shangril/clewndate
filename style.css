@@ -1,0 +1,81 @@
+body {
+    color:#004014;
+    background-color: #AF9FAF;
+    font-family: Tahoma,sans-serif;
+    /*background-image: linear-gradient(to right, black, #373737);*/
+}
+a {
+    color: #000000;
+    text-decoration:none;
+}
+hr {
+    text-decoration:none;
+    clear:both;
+}
+h3 {
+    color: #852200;
+}
+
+.main_title {
+	text-align:center;
+}
+.main_subtitle {
+	text-align:center;
+}
+.button {
+	background-color:#101010;
+	border:solid 1px;
+	text-align:center;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.bigtext {
+	font-size:200%;
+
+}
+.profilepic {
+	border:solid 1px;
+	width:30%;
+	text-align:center;
+}
+.picquestion {
+	border:solid 1px;
+	font-size:180%;
+	text-align:center;
+}
+.privpic {
+	width:2%;
+}
+@media screen and (max-width:225px){
+
+	.bigtext {
+		font-size:100%;
+	}
+	.profilepic{
+		display:block;
+		border:solid 1px;
+		width:85%;
+		text-align:center;
+
+	}
+	.picquestion {
+		clear:both;
+		margin-top:18%;
+		display:block;
+		border:solid 1px;
+		font-size:180%;
+		text-align:center;
+		
+		}
+
+	
+	
+
+}
+@media screen and (max-width:675px) {
+	.privpic {
+		width:10%;
+	}
+
+
+	}
