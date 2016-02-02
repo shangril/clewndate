@@ -46,7 +46,7 @@ $ts=microtime(true);
 
 if ($mysession['pic']!==false && 
 		(
-		(floatval(str_replace('.jpg', '', $mysession['pic']))+2900)>microtime(true)
+		(floatval(str_replace('.jpg', '', $mysession['pic']))+2900)<microtime(true)
 		
 		)
 
